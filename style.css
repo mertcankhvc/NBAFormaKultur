@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Palanquin Dark', sans-serif;
+    background-color: #ebebeb;
+}
+
+#alayi{
+    width: 100%;
+    margin: auto;
+    height: auto;    
+}
+
+header{
+    width:100%;
+    height:auto;
+    position: relative;
+    color: white;
+    background-color: rgb(236,24,75);
+}
+
+#headerNBA{
+    width:100%;
+    height:auto;    
+}
+
+#headerLOGO{
+    position: absolute;
+    width:45%;
+    height: auto;
+    top:4%;
+    left:29%;
+}
+
+section{
+    width:100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+nav{
+    background-color: rgb(236,24,75);
+    box-shadow: 0px 8px #d1d1d1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    padding: 0px;
+    list-style-type: none; 
+}
+
+nav li a{
+    color:white;
+    font-size: 130%;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav li a:hover{
+    background-color: #bc153f;
+}
+
+main{
+    width:70%;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px #d1d1d1;
+    font-family: 'Overpass', sans-serif;
+}
+
+#formafoto{
+    width: 100%;
+    height: auto;
+}
+
+#baslik{
+    margin:auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+#tanitim{
+    width: 80%;
+    margin: auto;
+    text-indent: 5%;
+    margin-top: 20px;
+}
+
+#ilovethisgame{
+    width: 20%;
+    margin-left: 37%; 
+}
+
+
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: #006ab6;
+    color: white;
+    line-height: 60px;
+    text-align: right;    
+}
+
+#footeryazi{
+    float: left;
+    margin-left: 40%;
+}
+
+footer li{
+    display: inline;
+    padding: 0px;
+    list-style-type: none; 
+}
+
+footer li a{
+    margin-right: 2%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+.hizmetBaslik{
+    width: 100%;
+    height: 45px;
+    font-size: 45px;
+    margin-left: 12%;
+}
+
+.hizmetYazi{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+}
+
+div2{
+    font-size: 150%;
+}
+
+
+#resimTarihce{
+    width: 30%;
+    padding: 10px;
+    border-radius: 25px;
+    float: left;
+}
+
+#baslikTarihce{
+    padding-left: 35%;
+}
+
+#yaziTarihce{
+    padding-left: 2%;
+}
+
+
+#resimMisyon{
+    width: 25%;     
+    padding: 10px;
+    border-radius: 25px;
+    float: right;
+}
+
+#baslikMisyon{
+    padding-left: 3%;
+}
+
+#yaziMisyon{
+    padding-left: 2%;
+}
+
+#resimVizyon{
+    width: 25%;
+    padding: 10px;
+    border-radius: 25px;
+    float: left;
+}
+
+#baslikVizyon{
+    padding-left: 30%;
+}
+
+#yaziVizyon{
+    padding-left: 2%;
+}
+
+#KariyerBaslik{
+    padding-left: 4%;
+}
+
+.KariyerYazi{
+    padding-left: 2%;
+    font-size: 150%;
+}
+
+.gallery{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+#iletisimBaslik{
+    text-align: center;
+
+}
+
+iframe{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#BizeUlasin{
+    padding-left: 4%;
+    font-size: 200%;
+}
+.iletisimYazi{
+    padding-left: 2%;
+    font-size: 150%;
+}
